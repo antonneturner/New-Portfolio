@@ -186,6 +186,7 @@ body {
 
 .site-logo img {
   padding-bottom: 2px;
+  position: relative;
 }
 
 /* Navigation */
