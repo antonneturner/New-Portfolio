@@ -186,6 +186,10 @@ body {
   z-index: 5;
 }
 
+li {
+  list-style: none;
+}
+
 #portfolio-pic {
   margin-right: 2em;
 }
