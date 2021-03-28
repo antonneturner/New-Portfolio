@@ -1,51 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+import logo from './logo.svg';
+import './App.css';
 
-<head>
-
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>My Portfolio</title>
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
-    <!-- Favicon
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
-
-    <!-- Stylesheets
-    ================================================== -->
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
+function App() {
+  return (
+     <>
     <header id="masthead" class="site-header" data-anchor-target=".hero"
         data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);"
         data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
@@ -67,7 +25,7 @@
 
                     </a>
 
-                </div><!-- /.navbar-header -->
+                </div>
 
                 <div class="main-menu" id="portfolio-perfect-collapse">
 
@@ -79,13 +37,13 @@
                         <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
 
-                    </ul><!-- /.navbar-nav -->
+                    </ul>
 
-                </div><!-- /.navbar-collapse -->
+                </div>
 
             </div>
-        </nav><!-- /.primary-navigation -->
-    </header><!-- /#header -->
+        </nav>
+    </header>
 
     <div id="hero" class="hero">
         <div class="container">
@@ -102,12 +60,12 @@
                 </div>
 
                 <div class="col-md-6 text-right">
-                    <img src="./my-picture-3-removebg-preview.png" alt="anton turner" id="portfolio-pic">
+                    <img src="./my-picture-3-removebg-preview.png" alt="anton turner" id="portfolio-pic"/>
                 </div>
 
             </div>
         </div>
-    </div><!-- /.hero -->
+    </div>
 
     <main id="main" class="site-main">
 
@@ -116,7 +74,7 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines"/>
                         <p>Hello! I'm Anton, a full stack web developer who is interested in technology and innovation.
                             I am a very talented and effiencent indivdual who prides myself on always learning and
                             improving.</p>
@@ -125,13 +83,13 @@
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-about -->
+        </section>
 
         <section class="site-section section-skills">
             <div class="container">
                 <div class="text-center">
                     <h3>My Skills</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines"/>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
@@ -139,56 +97,56 @@
                             <h4>Html/css/Jquery</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div>
-                                <!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                              
+                            </div>
+                        </div>
                         <div class="skill">
                             <h4>
                                 <Node class="js">Mongo_db/Mongoose</Node>
                             </h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div>
-                                <!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                            
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <div class="skill">
                             <h4>Javascript</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div>
-                                <!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                              
+                            </div>
+                        </div>
                         <div class="skill">
                             <h4>React/React.js</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div>
-                                <!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                              
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <div class="skill">
                             <h4>MySQL</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="97"></div>
-                                <!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                              
+                            </div>
+                        </div>
                         <div class="skill">
                             <h4>
                                 <Node class="js">Node/ Node.Js</Node>
                             </h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div>
-                                <!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                              
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-skills -->
+        </section>
 
         <section id="service" class="site-section section-services overlay text-center">
             <div class="container">
@@ -199,44 +157,40 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/front-end.svg" alt="Front End Developer">
+                            <img src="assets/img/front-end.svg" alt="Front End Developer"/>
                             <h4>Front-end</h4>
                             <p>As a javascript developer, I have experience in HTML5 and CSS3 technologies working with
                                 JQuery,Javascript and MVC frameworks such as React</p>
-                        </div><!-- /.service -->
+                        </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/back-end.svg" alt="Back End Developer">
+                            <img src="assets/img/back-end.svg" alt="Back End Developer"/>
                             <h4>Back-end</h4>
                             <p>Utilising frameworks such as MongoDB, MySQL, Mongoose, Handlebars, Node, and Node.js
                             </p>
-                        </div><!-- /.service -->
+                        </div>
                     </div>
-                    <!-- <div class="col-sm-4"> -->
-                    <!-- <div class="service">
-                            <img src="assets/img/consultancy.svg" alt="Coding">
-                            <h4>Consultancy</h4>
-                            <p>As well as providing development services, I can also help you decide strategic roadmaps
-                                via consultancy services.</p> -->
-                </div><!-- /.service -->
+                   
+                   
+                </div>
             </div>
             </div>
             </div>
-        </section><!-- /.secton-services -->
+        </section>
 
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
                 <div class="text-center">
                     <h3>My Projects</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines"/>
                 </div>
 
-                <!-- Fitness Tracker -->
+      
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/fitness.png" class="img-res" alt="screenshot of project">
+                            <img src="assets/img/fitness.png" class="img-res" alt="screenshot of project"/>
                             <div class="portfolio-item-info">
                                 <h4>Fitness Tracker</h4>
 
@@ -245,15 +199,15 @@
 
                                 <a target="_blank" href="https://github.com/antonneturner/Fitness-Tracker"><span
                                         class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Employee Management  -->
+                
 
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/employee.png" class="img-res" alt="Screenshot of project">
+                            <img src="assets/img/employee.png" class="img-res" alt="Screenshot of project"/>
                             <div class="portfolio-item-info">
                                 <h4>Employee Management App</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span
@@ -262,15 +216,15 @@
                                 <a target="_blank"
                                     href="https://github.com/antonneturner/Employee-management-system"><span
                                         class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Note Taker -->
+              
 
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/Note-Taker.png" class="img-res" alt="Note-Taker">
+                            <img src="assets/img/Note-Taker.png" class="img-res" alt="Note-Taker"/>
                             <div class="portfolio-item-info">
                                 <h4>Note Taker</h4>
 
@@ -279,17 +233,17 @@
 
                                 <a target="_blank" href="https://github.com/antonneturner/Note-Taker"><span
                                         class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                            </div>
+                        </div>
                     </div>
 
 
 
-                    <!-- Recipe Hub  -->
+            
 
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/Recipe-Hub.png" class="img-res" alt="picture of Recipe-Hub">
+                            <img src="assets/img/Recipe-Hub.png" class="img-res" alt="picture of Recipe-Hub"/>
                             <div class="portfolio-item-info">
 
                                 <h4>The Recipe Hub</h4>
@@ -298,15 +252,15 @@
 
                                 <a target="_blank" href="https://the-recipe-hub.herokuapp.com/recipes"><span
                                         class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Weather Forecaster -->
+                    
 
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/weather-dashboard.png" class="img-res" alt="">
+                            <img src="assets/img/weather-dashboard.png" class="img-res" alt="weather dashbpard"/>
                             <div class="portfolio-item-info">
 
                                 <h4>Weather Forecaster</h4>
@@ -317,15 +271,15 @@
                                 <a target="_blank" href="https://github.com/antonneturner/Weather-dashboard"><span
                                         class="glyphicon glyphicon-link"></span></a>
 
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Eat a Burger -->
+              
 
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/burger-6.jpg" class="img-res" alt="burger">
+                            <img src="assets/img/burger-6.jpg" class="img-res" alt="burger"/>
                             <div class="portfolio-item-info">
 
                                 <h4>Eat a Burger</h4>
@@ -335,13 +289,12 @@
 
                                 <a target="_blank" href="https://github.com/antonneturner/Eat-a-Burger"><span
                                         class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-portfolio -->
-        <!-- 
+        </section>
         <section class="site-section section-counters text-center">
             <div class="container">
                 <div class="row">
@@ -361,46 +314,22 @@
             </div>
         </section>
         
-        
-         -->
 
-        <!-- /.section-counters -->
 
         <section id="contact" class="site-section section-form text-center">
             <div class="container">
 
                 <h3>Contact</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                <!-- <form>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <input type="text" name="Linkedin" class="form-control mt-x-0" placeholder="Name" required>
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>
-                        </div>
-                        <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message"
-                                required></textarea>
-                        </div>
-                    </div>
-                    <button href="#" class="btn btn-border" type="submit"> Contact me <span
-                            class="glyphicon glyphicon-send"></span></button>
-                </form>
-            </div> -->
+               
 
 
+ 
+              
 
-                <!-- <li><a class="dropdown-item" target="_blank"
-                        href="https://www.linkedin.com/in/anton-turner-38512750/">Linkedin</a></li> -->
-                <li><a class="dropdown-item" target="_blank" href="https://github.com/antonneturner">Github</a></li>
-                <li><a class="dropdown-item" target="_blank" href="./assets/img/Web.pdf">Resume</a>
-                </li>
-                <li><a class="dropdown-item" target="_blank" href="mailto://antonneturner@gmail.com">Email</a></li>
+        </section>
 
-        </section><!-- /.section-form -->
-
-    </main><!-- /#main -->
+    </main>
 
     <footer id="colophon" class="site-footer">
         <div class="container">
@@ -421,18 +350,18 @@
                 </div>
             </div>
         </div>
-    </footer><!-- /#footer -->
+    </footer>
 
-    <!-- Modals -->
+    
     <div id="portfolioItem1" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <img class="img-res" src="./assets/img/fitness.png" alt="Fitness Tracker">
+                    <img class="img-res" src="./assets/img/fitness.png" alt="Fitness Tracker"/>
                 </div>
 
-                <!--  Fitness Tracker -->
+              
 
                 <div class="modal-body">
 
@@ -459,18 +388,18 @@
                     <a target="_blank" href="https://fitness-tracker-anton.herokuapp.com/?id=6052b3c781f73200152de955"
                         class="btn btn-fill"> Visit page</a>
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+            </div>
+        </div>
+    </div>
 
-    <!-- Employee Management Modal -->
+    
 
     <div id="portfolioItem2" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <!-- <img class="img-res" src="https://github.com/antonneturner/Employee-management-system alt="> -->
+                   
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/eyMuEysPfzQ" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -499,18 +428,16 @@
                         class="btn btn-fill">Visit
                         Page</a>
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <!-- Note Taker -->
+            </div>
+        </div>
+    </div>
 
     <div id="portfolioItem3" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <img class="img-res" src="./assets/img/Note-Taker.png" alt="Note-Taker">
+                    <img class="img-res" src="./assets/img/Note-Taker.png" alt="Note-Taker"/>
 
 
                 </div>
@@ -536,19 +463,19 @@
                         Page</a>
 
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+            </div>
+        </div>
+    </div>
 
 
-    <!-- Recipe Hub -->
+    
 
     <div id="portfolioItem4" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <img class="img-res" src="./assets/./img/Recipe-Hub.png" alt="Recipe Hub">
+                    <img class="img-res" src="./assets/./img/Recipe-Hub.png" alt="Recipe Hub"/>
                 </div>
 
                 <div class="modal-body">
@@ -577,18 +504,18 @@
 
                 </div>
 
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+            </div>
+        </div>
+    </div>
 
-    <!-- Weather Dashboard -->
+  
 
     <div id="portfolioItem5" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <img class="img-res" src="assets/img/weather-dashboard.png" alt="weather-dashboard">
+                    <img class="img-res" src="assets/img/weather-dashboard.png" alt="weather-dashboard"/>
                 </div>
                 <div class="modal-body">
 
@@ -612,18 +539,16 @@
                     btn-fill">Visit Page</a>
 
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <!-- Eat a burger -->
+            </div>
+        </div>
+    </div>
 
     <div id="portfolioItem6" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <img class="img-res" src="assets/img/burger-6.jpg" alt="Burger">
+                    <img class="img-res" src="assets/img/burger-6.jpg" alt="Burger"/>
                 </div>
                 <div class="modal-body">
 
@@ -645,22 +570,11 @@
                     <a target="_blank" href="https://eat-a-burger-anton.herokuapp.com/" class="btn btn-fill">Visit
                         Page</a>
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+            </div>
+        </div>
+    </div></div>
+     </>
+  );
+}
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/skrollr.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/script.js"></script>
-
-</body>
-
-</html>
+export default App;
