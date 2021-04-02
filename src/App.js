@@ -70,7 +70,6 @@ function App() {
             </div>
 
             <div class="col-md-6 text-right">
-              kjbkjhkhkljhjl
               <img
                 src="/my-picture-3-removebg-preview.png"
                 alt="anton turner"
