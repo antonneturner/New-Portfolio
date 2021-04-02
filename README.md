@@ -18,11 +18,11 @@
 
 ## Screenshot
 
-![Screenshot (66)](https://user-images.githubusercontent.com/71462708/112740651-8b29f000-8f4c-11eb-8268-ed574d791290.png)
+![Screenshot (5)](https://user-images.githubusercontent.com/71462708/113447938-dae33e00-93c8-11eb-8c26-3f347bc6934a.png)
 
 ### Deployment
 
-[Site](https://antonneturner.github.io/UserDirectory/)
+[Site](https://antonneturner.github.io/New-Portfolio/)
 
 # License
 
