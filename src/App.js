@@ -87,7 +87,11 @@ function App() {
             <div class="row">
               <div class="col-md-6 col-md-offset-3">
                 <h2>About</h2>
-                <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+                <img
+                  src="/New-Portfolio/assets/img/lines.svg"
+                  class="img-lines"
+                  alt="lines"
+                />
                 <p>
                   Hello! I'm Anton, a full stack web developer who is interested
                   in technology and innovation. I am a very talented and
@@ -95,7 +99,7 @@ function App() {
                   improving.
                 </p>
                 <a
-                  href="./assets/img/Web-dev.pdf"
+                  href=".//New-Portfolio/assets/img/Web-dev.pdf"
                   class="btn btn-fill"
                   target="_blank"
                   download
@@ -111,7 +115,11 @@ function App() {
           <div class="container">
             <div class="text-center">
               <h3>My Skills</h3>
-              <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+              <img
+                src="/New-Portfolio/assets/img/lines.svg"
+                class="img-lines"
+                alt="lines"
+              />
             </div>
             <div class="row">
               <div class="col-md-4">
@@ -192,12 +200,16 @@ function App() {
             <div class="row">
               <div class="col-md-12">
                 <h3>Skills</h3>
-                <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+                <img
+                  src="/New-Portfolio/assets/img/lines.svg"
+                  class="img-lines"
+                  alt="lines"
+                />
               </div>
               <div class="col-sm-4">
                 <div class="service">
                   <img
-                    src="assets/img/front-end.svg"
+                    src="/New-Portfolio/assets/img/front-end.svg"
                     alt="Front End Developer"
                   />
                   <h4>Front-end</h4>
@@ -210,7 +222,10 @@ function App() {
               </div>
               <div class="col-sm-4">
                 <div class="service">
-                  <img src="assets/img/back-end.svg" alt="Back End Developer" />
+                  <img
+                    src="/New-Portfolio/assets/img/back-end.svg"
+                    alt="Back End Developer"
+                  />
                   <h4>Back-end</h4>
                   <p>
                     Utilising frameworks such as MongoDB, MySQL, Mongoose,
@@ -226,14 +241,18 @@ function App() {
           <div class="container">
             <div class="text-center">
               <h3>My Projects</h3>
-              <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+              <img
+                src="/New-Portfolio/assets/img/lines.svg"
+                class="img-lines"
+                alt="lines"
+              />
             </div>
 
             <div class="row">
               <div class="col-md-4 col-xs-6">
                 <div class="portfolio-item">
                   <img
-                    src="assets/img/fitness.png"
+                    src="/New-Portfolio/assets/img/fitness.png"
                     class="img-res"
                     alt="screenshot of project"
                   />
@@ -261,7 +280,7 @@ function App() {
               <div class="col-md-4 col-xs-6">
                 <div class="portfolio-item">
                   <img
-                    src="assets/img/employee.png"
+                    src="/New-Portfolio/assets/img/employee.png"
                     class="img-res"
                     alt="Screenshot of project"
                   />
@@ -288,7 +307,7 @@ function App() {
               <div class="col-md-4 col-xs-6">
                 <div class="portfolio-item">
                   <img
-                    src="assets/img/Note-Taker.png"
+                    src="/New-Portfolio/assets/img/Note-Taker.png"
                     class="img-res"
                     alt="Note-Taker"
                   />
@@ -316,7 +335,7 @@ function App() {
               <div class="col-md-4 col-xs-6">
                 <div class="portfolio-item">
                   <img
-                    src="assets/img/Recipe-Hub.png"
+                    src="/New-Portfolio/assets/img/Recipe-Hub.png"
                     class="img-res"
                     alt="picture of Recipe-Hub"
                   />
@@ -343,7 +362,7 @@ function App() {
               <div class="col-md-4 col-xs-6">
                 <div class="portfolio-item">
                   <img
-                    src="assets/img/weather-dashboard.png"
+                    src="/New-Portfolio/assets/img/weather-dashboard.png"
                     class="img-res"
                     alt="weather dashbpard"
                   />
@@ -371,7 +390,7 @@ function App() {
               <div class="col-md-4 col-xs-6">
                 <div class="portfolio-item">
                   <img
-                    src="assets/img/burger-6.jpg"
+                    src="/New-Portfolio/assets/img/burger-6.jpg"
                     class="img-res"
                     alt="burger"
                   />
@@ -437,7 +456,11 @@ function App() {
         <section id="contact" class="site-section section-form text-center">
           <div class="container">
             <h3>Contact</h3>
-            <img src="assets/img/lines.svg" class="img-lines" alt="lines" />
+            <img
+              src="/New-Portfolio/assets/img/lines.svg"
+              class="img-lines"
+              alt="lines"
+            />
           </div>
         </section>
       </main>
@@ -482,7 +505,7 @@ function App() {
               </a>
               <img
                 class="img-res"
-                src="./assets/img/fitness.png"
+                src=".//New-Portfolio/assets/img/fitness.png"
                 alt="Fitness Tracker"
               />
             </div>
@@ -569,7 +592,7 @@ function App() {
               </a>
               <img
                 class="img-res"
-                src="./assets/img/Note-Taker.png"
+                src=".//New-Portfolio/assets/img/Note-Taker.png"
                 alt="Note-Taker"
               />
             </div>
@@ -607,7 +630,7 @@ function App() {
               </a>
               <img
                 class="img-res"
-                src="./assets/./img/Recipe-Hub.png"
+                src=".//New-Portfolio/assets/./img/Recipe-Hub.png"
                 alt="Recipe Hub"
               />
             </div>
@@ -649,7 +672,7 @@ function App() {
               </a>
               <img
                 class="img-res"
-                src="assets/img/weather-dashboard.png"
+                src="/New-Portfolio/assets/img/weather-dashboard.png"
                 alt="weather-dashboard"
               />
             </div>
@@ -687,7 +710,11 @@ function App() {
               <a class="close" data-dismiss="modal">
                 <span class="glyphicon glyphicon-remove"></span>
               </a>
-              <img class="img-res" src="assets/img/burger-6.jpg" alt="Burger" />
+              <img
+                class="img-res"
+                src="/New-Portfolio/assets/img/burger-6.jpg"
+                alt="Burger"
+              />
             </div>
             <div class="modal-body">
               <h4 class="modal-title">Eat a Burger</h4>
